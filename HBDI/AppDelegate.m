@@ -22,6 +22,7 @@
     // Override point for customization after application launch.
     MainViewController *controller = (MainViewController *)self.window.rootViewController;
     controller.managedObjectContext = self.managedObjectContext;
+    NSLog(@"Welcome Text: %@", NSLocalizedString(@"WelcomeKey", @""));	
     return YES;
 }
 							

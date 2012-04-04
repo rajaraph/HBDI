@@ -18,6 +18,8 @@
 		7B1BF721152CC5DD00CE618C /* HBDI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B1BF71F152CC5DD00CE618C /* HBDI.xcdatamodeld */; };
 		7B1BF724152CC5DE00CE618C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1BF723152CC5DE00CE618C /* MainViewController.m */; };
 		7B1BF727152CC5DE00CE618C /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1BF726152CC5DE00CE618C /* FlipsideViewController.m */; };
+		7B1BF72F152CC60B00CE618C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B1BF72D152CC60B00CE618C /* Localizable.strings */; };
+		7B1BF732152CC6D000CE618C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B1BF730152CC6D000CE618C /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,18 +28,22 @@
 		7B1BF70A152CC5DD00CE618C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7B1BF70C152CC5DD00CE618C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7B1BF70E152CC5DD00CE618C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		7B1BF712152CC5DD00CE618C /* HBDI-Info.plist */ = {isa = PBXFileReference; path = "HBDI-Info.plist"; sourceTree = "<group>"; };
+		7B1BF712152CC5DD00CE618C /* HBDI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HBDI-Info.plist"; sourceTree = "<group>"; };
 		7B1BF714152CC5DD00CE618C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7B1BF716152CC5DD00CE618C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7B1BF718152CC5DD00CE618C /* HBDI-Prefix.pch */ = {isa = PBXFileReference; path = "HBDI-Prefix.pch"; sourceTree = "<group>"; };
-		7B1BF719152CC5DD00CE618C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B1BF718152CC5DD00CE618C /* HBDI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HBDI-Prefix.pch"; sourceTree = "<group>"; };
+		7B1BF719152CC5DD00CE618C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B1BF71A152CC5DD00CE618C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7B1BF71D152CC5DD00CE618C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7B1BF720152CC5DD00CE618C /* HBDI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HBDI.xcdatamodel; sourceTree = "<group>"; };
-		7B1BF722152CC5DD00CE618C /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		7B1BF722152CC5DD00CE618C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		7B1BF723152CC5DE00CE618C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		7B1BF725152CC5DE00CE618C /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		7B1BF725152CC5DE00CE618C /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		7B1BF726152CC5DE00CE618C /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		7B1BF72E152CC60B00CE618C /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = HBDI/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7B1BF731152CC6D000CE618C /* fr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr; path = HBDI/fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7B1BF733152CC73B00CE618C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B1BF734152CC74900CE618C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,8 @@
 		7B1BF711152CC5DD00CE618C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7B1BF730152CC6D000CE618C /* Localizable.strings */,
+				7B1BF72D152CC60B00CE618C /* Localizable.strings */,
 				7B1BF712152CC5DD00CE618C /* HBDI-Info.plist */,
 				7B1BF713152CC5DD00CE618C /* InfoPlist.strings */,
 				7B1BF716152CC5DD00CE618C /* main.m */,
@@ -144,6 +152,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 			);
 			mainGroup = 7B1BF6F9152CC5DD00CE618C;
 			productRefGroup = 7B1BF705152CC5DD00CE618C /* Products */;
@@ -162,6 +171,8 @@
 			files = (
 				7B1BF715152CC5DD00CE618C /* InfoPlist.strings in Resources */,
 				7B1BF71E152CC5DD00CE618C /* MainStoryboard.storyboard in Resources */,
+				7B1BF72F152CC60B00CE618C /* Localizable.strings in Resources */,
+				7B1BF732152CC6D000CE618C /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +198,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7B1BF714152CC5DD00CE618C /* en */,
+				7B1BF733152CC73B00CE618C /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -195,8 +207,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				7B1BF71D152CC5DD00CE618C /* en */,
+				7B1BF734152CC74900CE618C /* fr */,
 			);
 			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		7B1BF72D152CC60B00CE618C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B1BF72E152CC60B00CE618C /* en */,
+			);
+			name = Localizable.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7B1BF730152CC6D000CE618C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B1BF731152CC6D000CE618C /* fr */,
+			);
+			name = Localizable.strings;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
